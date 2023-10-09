@@ -1,0 +1,74 @@
+.divEtiqueta{
+    background-color: #6e6c6c;
+    min-height: 100vh;
+    padding: 20px;
+
+    form{
+        width: 600px;
+        margin: 0 auto;
+        color: black;
+
+        fieldset{
+            padding: 20px;
+            margin-bottom: 20px;
+        
+            legend{
+                font-size: 30px;
+                text-align: center;
+                padding: 10px;
+                font-weight: 700;
+            }
+            label{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+                font-size: 19px;
+                font-weight: 600;
+
+                input{
+                    padding: 8px;
+                    border-radius: 8px;
+                    border: none;
+                    outline-color: black;
+                    margin-top: 10px;
+                    background-color: #c7c3c3;
+                    font-size: 20px;
+                }
+                span{
+                    margin: 10px;
+                    color: #af1b1b;
+                }
+            }
+         
+            button{
+                padding: 10px 15px;
+                border-radius: 5px;
+                font-size: 20px;
+                border: none;
+                background-color: #c7c3c3;
+            }
+        }
+    }
+    .painel{
+        width: 100%;
+        background-color: #c7c3c3;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: auto;
+
+        .etiqueta{
+            padding: 10px;
+            border: 5px solid black;
+            width: 400px;
+            margin: 10px;
+            border-radius: 5px;
+            background-color: #e6e3e3;
+
+            p{
+                margin-bottom: 5px;
+                font-size: 20px;
+            }
+        }
+    }
+}
